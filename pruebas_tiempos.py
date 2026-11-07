@@ -43,3 +43,15 @@ for n in range(6, 10):
         f"{n}, {recorridos}, {tiempo_exacto:.8f}, "
         f"{tiempo_heuristica:.8f}, {error:.2f}"
     )
+    # Prueba grande: 1000 ciudades, solo con la heurística
+ciudades_grandes = crear_ciudades_prueba(1000)
+
+inicio = perf_counter()
+ruta_grande = vecino_mas_cercano(ciudades_grandes)
+tiempo_grande = perf_counter() - inicio
+distancia_grande = distancia_ruta(ruta_grande)
+
+print("\nPRUEBA DE ESCALABILIDAD")
+print(f"Ciudades: {len(ciudades_grandes)}")
+print(f"Tiempo de la heurística: {tiempo_grande:.4f} segundos")
+print(f"Distancia total: {distancia_grande:.2f} km")
