@@ -18,3 +18,22 @@ Distancia óptima: 675,60 km
 Tiempo de la heurística: 0,00004860 segundos
 Distancia de la heurística: 885,40 km
 Error relativo: 31,05 %
+
+
+PRUEBAS CON DISTINTA CANTIDAD DE CIUDADES
+Las instancias de 6 ciudades usan las ciudades reales seleccionadas.
+Para 7, 8 y 9 se agregan puntos sintéticos reproducibles.
+Las distancias son en línea recta.
+
+Ciudades | Recorridos exactos | Tiempo exacto (s) | Tiempo heurística (s) | Error (%)
+6        | 120                | 0.00101300        | 0.00004630            | 31.05
+7        | 720                | 0.00650910        | 0.00004750            | 28.98
+8        | 5040               | 0.05457220        | 0.00006170            | 22.17
+9        | 40320              | 0.46046520        | 0.00006810            | 20.65
+
+
+PRUEBA DE ESCALABILIDAD: HEURÍSTICA CON 1000 CIUDADES
+Cantidad de ciudades: 1000
+Tiempo: 0,6149 segundos
+Distancia total: 9753,48 km
+Las ubicaciones adicionales son puntos sintéticos generados dentro de la región de Entre Ríos.
