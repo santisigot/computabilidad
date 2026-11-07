@@ -1,0 +1,20 @@
+PRUEBA 1: ALGORITMO EXACTO
+Cantidad de ciudades: 6
+Recorridos evaluados: 120
+Mejor ruta: Concepción del Uruguay -> Colón -> Concordia -> Villaguay -> Paraná -> Gualeguaychú -> Concepción del Uruguay
+Distancia total: 675,60 km en línea recta
+
+
+PRUEBA 2: HEURÍSTICA DEL VECINO MÁS CERCANO
+Cantidad de ciudades: 6
+Ruta: Concepción del Uruguay -> Colón -> Villaguay -> Concordia -> Gualeguaychú -> Paraná -> Concepción del Uruguay
+Distancia total: 885,40 km en línea recta
+Error relativo respecto de la ruta óptima: ((885,40 − 675,60) / 675,60) × 100 = 31,05%
+
+PRUEBA 3: COMPARACIÓN DE TIEMPOS
+Cantidad de ciudades: 6
+Tiempo del algoritmo exacto: 0,00100420 segundos
+Distancia óptima: 675,60 km
+Tiempo de la heurística: 0,00004860 segundos
+Distancia de la heurística: 885,40 km
+Error relativo: 31,05 %
