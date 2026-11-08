@@ -1,0 +1,11 @@
+# Documentos del trabajo final (no versionar)
+tp final. teoria de la computabilidad.pdf
+Trabajo Final 2026 - Teoría de la Computabilidad.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
