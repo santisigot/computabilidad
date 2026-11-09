@@ -18,7 +18,7 @@ import csv
 from pathlib import Path
 from time import perf_counter
 
-from ciudades import TimeoutExacto, crear_ciudades, distancia_ruta, resolver_tsp_exacto
+from exacto import TimeoutExacto, crear_ciudades, distancia_ruta, resolver_tsp_exacto
 from heuristica import vecino_mas_cercano
 
 

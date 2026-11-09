@@ -5,7 +5,7 @@ from __future__ import annotations
 import argparse
 from time import perf_counter
 
-from ciudades import crear_ciudades, distancia_ruta, resolver_tsp_exacto
+from exacto import crear_ciudades, distancia_ruta, resolver_tsp_exacto
 from heuristica import vecino_mas_cercano
 
 
